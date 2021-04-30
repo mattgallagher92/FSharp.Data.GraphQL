@@ -5,7 +5,7 @@ FSharp.Data.GraphQL
 FSharp.Data.GraphQL is a client and server implementation of Facebook's [GraphQL](http://graphql.org/) query language.
 
 It's a standard created for building web service APIs and a runtime for defining those APIs in statically typed, well
-formed way. The core idea is to define web service in context of its capabilities in oposition to routees known from existing RESTful APIs. Capabilities are defined in form of GraphQL schema and describe all operations and data allowed to be requested by the client, without fragmenting it into particular routes.
+formed way. The core idea is to define web service in context of its capabilities in opposition to routes known from existing RESTful APIs. Capabilities are defined in form of GraphQL schema and describe all operations and data allowed to be requested by the client, without fragmenting it into particular routes.
 
 The FSharp.Data.GraphQL library can be installed from NuGet on the [server](https://www.nuget.org/packages/FSharp.Data.GraphQL.Server) or a [client](https://www.nuget.org/packages/FSharp.Data.GraphQL.Client):
     
@@ -67,7 +67,7 @@ async {
 
 ## More examples
 
-For more examples, clone [FSharp.Data.GraphQL github repository](https://github.com/fsprojects/FSharp.Data.GraphQL) and see the **samples** folder. There, your can find:
+For more examples, clone [FSharp.Data.GraphQL github repository](https://github.com/fsprojects/FSharp.Data.GraphQL) and see the **samples** folder. There, you can find:
 
 - A mandatory Star Wars schema introduction using [GraphiQL](https://github.com/graphql/graphiql) client.
 - An example using [RelayJS](https://facebook.github.io/relay/) data structures (which this library supports).
